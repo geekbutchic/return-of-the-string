@@ -4,6 +4,9 @@
 yell = (str) => {
   return str + '!'
 }
+// This method is used to test this code
+// const test = yell('Hello')
+// test;
 
 getFirstCharacter = (str) => {
   return str[0];
@@ -22,16 +25,19 @@ getTwoCharacters = (str, index1, index2) => {
 }
 
 makeCapitalized = (str) => {
-    return str.toUpperCase();
+  return str.toUpperCase();
 }
 
 yellLouder = (str) => {
   return str.toUpperCase() + '!!!';
+  // Uses function to do the work 
+  // return makeCapitalized(str) + '!!!';
 }
 
 getInitials = (str) => {
   return str[0] + '.' + str[str.indexOf(' ') + 1] + '.';
 }
+
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
  ********************************************************************/
